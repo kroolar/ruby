@@ -67,6 +67,15 @@ end
 
 This code works in exactly the same way as the code presented at the beginning of this article.
 
+### Pros:
+- You are sure that there is only one instance of this class in entire app
+- The object is initialized only when it is needed
+- You have global access to this class
+
+### Cons:
+- It can lead to a situation where objects know too much about each other
+- In a multithreaded environment, this pattern can create multiple instances
+
 ### More reading
 - https://refactoring.guru/design-patterns/singleton
 - https://medium.com/@kroolar/design-patterns-in-ruby-singleton-b08db24669fb
