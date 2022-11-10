@@ -1,4 +1,4 @@
-# ADAPTER
+# Adapter
 
 ### Overview
 _The adapter is a structural design pattern that allows two objects with incompatible interfaces to work together._
@@ -92,6 +92,13 @@ An **adapter** written in such a way can easily be used to work with the **Greet
 dev_adapter = TeamAdapter.new(development)
 Greeter.hello(dev_adapter) # => "Hello, Development Team!"
 ```
+
+**Pros:**
+- Communication interface is separated from business logic (SRP)
+- You can add new adapters to existing code without breaking it (OCP)
+
+**Cons:**
+- Increase complexity. Sometimes it’s better rebuild the class
 
 ### More reading
 - https://refactoring.guru/pl/design-patterns/adapter
