@@ -1,7 +1,7 @@
 # ADAPTER
 
 ### Overview
-The adapter is a structural design pattern that allows two objects with incompatible interfaces to work together.
+_The adapter is a structural design pattern that allows two objects with incompatible interfaces to work together._
 
 ### Real World Example
 Before I explain what it is and how to use the adapter pattern, think about what this name associates you with. If you’ve ever been to a country that uses other electrical sockets, you must have used an adapter similar to the one in the picture below.
@@ -94,5 +94,6 @@ Greeter.hello(dev_adapter) # => "Hello, Development Team!"
 ```
 
 ### More reading
-https://refactoring.guru/pl/design-patterns/adapter
+- https://refactoring.guru/pl/design-patterns/adapter
+- https://medium.com/@kroolar/design-patterns-in-ruby-adapter-ed62abdf87d
 
