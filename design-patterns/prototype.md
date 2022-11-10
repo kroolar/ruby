@@ -45,6 +45,15 @@ This method allows you to easily clone our sheep and give it a new name.
 ### Caution
 However, it should be remembered that in **Ruby** the **Prototype** pattern is implemented in the standard library, so when creating the clone method, we overwrite the existing one. In some cases, overriding this method can be useful because the default method only makes a shallow copy of the object.
 
+### Pros:
+- You can clone objects without coupling to their concrete classes
+- You can get rid of repeated initialization code in favor of cloning pre-built prototypes
+- You can produce complex objects more conveniently
+- You get an alternative to inheritance when dealing with configuration presets for complex objects
+
+### Cons:
+- Cloning complex objects that have circular references might be very tricky
+
 ### More reading
 - https://refactoring.guru/design-patterns/prototype
 - https://www.rubyguides.com/2018/11/dup-vs-clone/
