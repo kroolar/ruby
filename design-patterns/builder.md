@@ -105,6 +105,15 @@ builder.select_spicy_sauce(level: :extra_hot)
 
 At this point, we have created an interface that allows us to quickly and easily create a new object with freely chosen properties.
 
+### Pros:
+
+- You can construct objects step-by-step, defer construction steps or run steps recursively
+- You can reuse the same construction code when building various representations of products
+- You can isolate complex construction code from the business logic of the product (SRP)
+
+### Cons:
+- The overall complexity of the code increases since the pattern requires creating multiple new classes
+
 ### More reading
 - https://refactoring.guru/design-patterns/builder
 - https://medium.com/@kroolar/design-patterns-in-ruby-builder-5e65c451259f
