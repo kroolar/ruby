@@ -25,30 +25,30 @@ Design pattern is a typical solution to frequently encountered problems in softw
 ### <a name="patterns">4. Patterns</a>
 
 #### Creational
-- [Abstract Factory](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/abstract-factory.md)
-- [Builder](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/builder.md)
-- [Factory Method](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/factory-method.md)
-- [Prototype](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/prototype.md)
-- [Singleton](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/singleton.md)
+- [Abstract Factory]
+- [Builder](https://github.com/kroolar/ruby/blob/master/design-patterns/builder.md)
+- [Factory Method]
+- [Prototype](https://github.com/kroolar/ruby/blob/master/design-patterns/prototype.md)
+- [Singleton](https://github.com/kroolar/ruby/blob/master/design-patterns/singleton.md)
 
 #### Structual
-- [Adapter](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/adapter.md)
-- [Bridge](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/bridge.md)
-- [Composite](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/composite.md)
-- [Decorator](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/decorator.md)
-- [Facade](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/facade.md)
-- [Flyweight](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/flyweight.md)
-- [Proxy](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/proxy.md)
+- [Adapter](https://github.com/kroolar/ruby/blob/master/design-patterns/adapter.md)
+- [Bridge]
+- [Composite]
+- [Decorator]
+- [Facade]
+- [Flyweight]
+- [Proxy]
 
 #### Behavioral
-- [Chain of Responsibility](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/chain-of-responsibility.md)
-- [Command](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/command.md)
-- [Interpreter](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/interpreter.md)
-- [Iterator](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/iterator.md)
-- [Mediator](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/mediator.md)
-- [Memento](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/memento.md)
-- [Observer](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/observer.md)
-- [State](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/state.md)
-- [Strategy](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/strategy.md)
-- [Template Method](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/template-method.md)
-- [Visitor](https://github.com/kroolar/tech-stack/blob/master/software-design/design-patterns/visitor.md)
+- [Chain of Responsibility]
+- [Command]
+- [Interpreter]
+- [Iterator]
+- [Mediator]
+- [Memento]
+- [Observer]
+- [State](https://github.com/kroolar/ruby/blob/master/design-patterns/state.md)
+- [Strategy]
+- [Template Method]
+- [Visitor]
