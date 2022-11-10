@@ -93,11 +93,11 @@ dev_adapter = TeamAdapter.new(development)
 Greeter.hello(dev_adapter) # => "Hello, Development Team!"
 ```
 
-**Pros:**
+### Pros:
 - Communication interface is separated from business logic (SRP)
 - You can add new adapters to existing code without breaking it (OCP)
 
-**Cons:**
+### Cons:
 - Increase complexity. Sometimes it’s better rebuild the class
 
 ### More reading
