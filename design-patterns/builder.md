@@ -1,6 +1,6 @@
 # Builder
 
-Creational design pattern that allows create complex objects step by step.
+_Creational design pattern that allows create complex objects step by step._
 
 ### Introduction
 When you hear the word **builder**, you probably think of a construction worker however, in this case, we should think of a builder as an object that is able to build new objects based on multiple elements. Imagine a restaurant that sells **Tortillas**. The owner had the idea that each customer would be able to compose their own tortillas and gave the customers several options to choose from:
